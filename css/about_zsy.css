@@ -1,0 +1,61 @@
+#ListBox{
+    background-color: #f5f5f5;}
+#ListBox ul{margin: auto;font-size: 22px; line-height: 90px;text-align: center}
+#ListBox ul>li{
+    margin-right:20px;
+    line-height: 85px;
+}
+#ListBox ul>li:nth-child(6){margin-right: 0;}
+#ListBox ul>li a{
+    padding-left:30px;
+    color: #f88b02 ;
+    text-decoration: none;
+    background: url("../images/about_zsyImg/icon01.png") no-repeat left center}
+#ListBox ul>li:nth-child(1).active,#ListBox ul>li:nth-child(1):hover{ border-bottom: 3px solid #f88b02}
+#ListBox ul>li:nth-child(2).active,#ListBox ul>li:nth-child(2):hover{ border-bottom: 3px solid #e7473e}
+#ListBox ul>li:nth-child(3).active,#ListBox ul>li:nth-child(3):hover{ border-bottom: 3px solid #e83f62}
+#ListBox ul>li:nth-child(4).active,#ListBox ul>li:nth-child(4):hover{ border-bottom: 3px solid #ce55cb}
+#ListBox ul>li:nth-child(5).active,#ListBox ul>li:nth-child(5):hover{ border-bottom: 3px solid #701078}
+#ListBox ul>li:nth-child(6).active,#ListBox ul>li:nth-child(6):hover{ border-bottom: 3px solid #ae7683}
+#ListBox ul>li:nth-child(2) a{color:#e7473e;background: url("../images/about_zsyImg/icon02.png") no-repeat left center}
+#ListBox ul>li:nth-child(3) a{color:#e83f62;background: url("../images/about_zsyImg/icon03.png") no-repeat left center}
+#ListBox ul>li:nth-child(4) a{color:#ce55cb;background: url("../images/about_zsyImg/icon04.png") no-repeat left center}
+#ListBox ul>li:nth-child(5) a{color:#701078;background: url("../images/about_zsyImg/icon05.png") no-repeat left center}
+#ListBox ul>li:nth-child(6) a{color:#ae7683; background: url("../images/about_zsyImg/icon06.png") no-repeat left center}
+
+#mainBox{
+    margin-bottom: 60px;
+    background: url("../images/about_zsyImg/knowus_bg.png") no-repeat center bottom;
+
+}
+.mainList dl{
+    margin-top: 50px;
+    }
+.mainList dl dt{color: #333;
+    font-size: 22px;line-height: 2.5em;
+    padding-top:74px;
+    font-weight: normal;
+
+}
+.mainList dl dd{color:#666;font-size: 16px;}
+
+.mainList dl:nth-of-type(1) dt{background: url(../images/about_zsyImg/introduction_icon01.png) no-repeat center top;}
+.mainList dl:nth-of-type(2) dt{background: url(../images/about_zsyImg/introduction_icon02.png) no-repeat center top;}
+.mainList dl:nth-of-type(3) dt{background: url(../images/about_zsyImg/introduction_icon03.png) no-repeat center top;}
+.mainList dl:nth-of-type(4) dt{background: url(../images/about_zsyImg/introduction_icon04.png) no-repeat center top;}
+.mainList dl:nth-of-type(5) dt{background: url(../images/about_zsyImg/introduction_icon05.png) no-repeat center top;}
+.mainList dl:nth-of-type(6) dt{background: url(../images/about_zsyImg/introduction_icon06.png) no-repeat center top;}
+.mainList dl:nth-of-type(7) dt{background: url(../images/about_zsyImg/introduction_icon07.png) no-repeat center top;}
+.mainList dl:nth-of-type(8) dt{background: url(../images/about_zsyImg/introduction_icon08.png) no-repeat center top;}
+.mainList dl:nth-of-type(9) dt{background: url(../images/about_zsyImg/introduction_icon09.png) no-repeat center top;}
+.mainList dl:nth-of-type(10) dt{background: url(../images/about_zsyImg/introduction_icon10.png) no-repeat center top;}
+.mainList dl:nth-of-type(11) dt{background: url(../images/about_zsyImg/introduction_icon11.png) no-repeat center top;}
+.mainList dl:nth-of-type(12) dt{background: url(../images/about_zsyImg/introduction_icon12.png) no-repeat center top;}
+.mainList dl:nth-of-type(13) dt{background: url(../images/about_zsyImg/introduction_icon13.png) no-repeat center top;}
+.mainList dl:nth-of-type(14) dt{background: url(../images/about_zsyImg/introduction_icon14.png) no-repeat center top;}
+.mainList dl:nth-of-type(15) dt{background: url(../images/about_zsyImg/introduction_icon15.png) no-repeat center top;}
+.mainList dl:nth-of-type(16) dt{background: url(../images/about_zsyImg/introduction_icon16.png) no-repeat center top;}
+.mainList dl:nth-of-type(17) dt{background: url(../images/about_zsyImg/introduction_icon17.png) no-repeat center top;}
+.mainList dl:nth-of-type(18) dt{background: url(../images/about_zsyImg/introduction_icon18.png) no-repeat center top;}
+.mainList dl:nth-of-type(19) dt{background: url(../images/about_zsyImg/introduction_icon19.png) no-repeat center top;}
+.mainList dl:nth-of-type(20) dt{background: url(../images/about_zsyImg/introduction_icon20.png) no-repeat center top;}

@@ -1,0 +1,48 @@
+#ListBox{
+    background-color: #f5f5f5;}
+#ListBox ul{margin: auto;font-size: 22px; line-height: 90px;text-align: center}
+#ListBox ul>li{
+    margin-right:20px;
+    line-height: 85px;
+}
+#ListBox ul>li:nth-child(6){margin-right: 0;}
+#ListBox ul>li a{
+    padding-left:30px;
+    color: #55719A ;
+    text-decoration: none;
+    background: url("../images/aboutImg/list01.png") no-repeat left center}
+#ListBox ul>li:nth-child(1).active,#ListBox ul>li:nth-child(1):hover{ border-bottom: 3px solid #55719A}
+#ListBox ul>li:nth-child(2).active,#ListBox ul>li:nth-child(2):hover{ border-bottom: 3px solid #3c479b}
+#ListBox ul>li:nth-child(3).active,#ListBox ul>li:nth-child(3):hover{ border-bottom: 3px solid #c2c225}
+#ListBox ul>li:nth-child(4).active,#ListBox ul>li:nth-child(4):hover{ border-bottom: 3px solid #3fa486}
+#ListBox ul>li:nth-child(5).active,#ListBox ul>li:nth-child(5):hover{ border-bottom: 3px solid #d66665}
+#ListBox ul>li:nth-child(6).active,#ListBox ul>li:nth-child(6):hover{ border-bottom: 3px solid #d12845}
+#ListBox ul>li:nth-child(2) a{color:#3c479b;background: url("../images/aboutImg/list02.png") no-repeat left center}
+#ListBox ul>li:nth-child(3) a{color:#c2c225;background: url("../images/aboutImg/list03.png") no-repeat left center}
+#ListBox ul>li:nth-child(4) a{color:#3fa486;background: url("../images/aboutImg/list04.png") no-repeat left center}
+#ListBox ul>li:nth-child(5) a{color:#d66665;background: url("../images/aboutImg/list05.png") no-repeat left center}
+#ListBox ul>li:nth-child(6) a{color:#d12845;background: url("../images/aboutImg/list06.png") no-repeat left center}
+
+/*关于智通内容区*/
+#aboutUSMain{
+    background:url("../images/aboutImg/knowus_bg.png") no-repeat bottom center;
+    overflow: hidden;
+    padding-bottom:4em;
+}
+#aboutUSMain h3{
+    font-size: 20px;
+    margin:50px 0 20px;
+    font-weight:bold;
+    color: #434853;
+}
+#aboutUSMain .text{
+    font-size: 16px;
+    color: #666;
+    line-height:28px;
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+#aboutUSMain .imgBox{
+    padding-top:6.2em;
+}
+/*关于智通结束*/
