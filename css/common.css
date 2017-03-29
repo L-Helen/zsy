@@ -1,0 +1,260 @@
+/*部分样式重置*/
+ul,dl,dt,dd{margin: 0;padding:0;list-style: none}
+a{text-decoration: none}
+body{font-family: "微软雅黑", "Arial", serif;font-size: 16px;}
+.container{max-width: 960px;}
+
+/*页头与导航开始*/
+.navbar{
+    border: 0;
+    border-radius:0;
+}
+header.navbar{
+    height: 80px;
+    margin-bottom: 0;
+
+}
+header.navbar .navbar-header{
+    width: 70%;
+    float: left;
+    height: 80px;
+    background: url("../images/bg01.jpg") no-repeat 134px 18px;
+}
+@media screen and (max-width: 767px){
+    header.navbar .navbar-header{
+        background:none;
+    }
+}
+@media screen and (min-width: 768px)and (max-width:991px){
+    header.navbar .navbar-header{
+        background: url("../images/bg01.jpg") no-repeat 134px 30px;
+        background-size:50% 50%;
+    }
+}
+header.navbar .nav{
+    float: right;
+    padding-top: 15px;
+
+}
+@media screen and (max-width:495px) {
+    header.navbar .navbar-header{
+        width: 50%;
+    }
+    header.navbar .nav{
+        width: 50%;
+    }
+
+}
+header.navbar .nav li{
+    width: 50%;
+    float: left;
+    background-color: #fff;
+}
+
+header.navbar .nav li a{
+    font-size: 18px;
+    color:#666;
+}
+header.navbar .nav li.active a{
+    background-color: #ff9900; color:#fff;
+    border-radius:6px;
+}
+header.navbar .nav  li:nth-child(2) > a:hover{
+    background-color:#fff;
+    color: #0F51B2;
+
+}
+
+header.navbar .navbar-brand{
+    height: 64px;
+    padding:10px 0;
+    padding-left: 3em;
+}
+
+
+nav.navbar{
+    width: 100%;
+    border-radius:0;
+    background-color: #3b5998;
+    border-bottom: 1px solid #fff;
+    z-index: 100;
+    border: 0;
+    margin-bottom: 0;
+}
+
+nav.navbar-default nav.navbar-toggle:hover{
+    background-color: #0880d2;
+}
+
+#myNav > li > a:hover, #myNav > li > a:focus{
+    background: #003085;
+}
+#myNav > li{
+    float: left;
+    width: 16.667%;
+    text-align: center;
+}
+.cur{
+	   background: #003085;
+}
+#myNav li.cur a{
+	background: none;
+    border-radius:0 ;
+    border: 0;
+}
+#myNav li a{
+    color: #fff;
+    padding: 0;
+   line-height: 50px;
+   border: none;
+}
+
+/*页头与导航结束*/
+
+
+
+
+
+/*banner开始*/
+.bannerBox ul>li img{
+    max-width: 100%;
+    height: 349px;
+    display:inline-block;
+    margin: auto;
+}
+.bannerBox ul>li:nth-child(1){background-color: #157CDB;}
+.bannerBox ul>li:nth-child(2){background-color: #2B7CA7;}
+.bannerBox ul>li:nth-child(3){background-color: #0099FF;}
+.bannerBox ul>li:nth-child(4){background-color: #0F51B2;}
+.bannerBox .btns li{
+    width: 20px;
+}
+/*banner结束*/
+
+
+
+
+
+footer{
+    border-top:1px solid #ddd;
+}
+footer .container{
+    max-width: 960px;
+
+}
+footer dl{
+    padding:30px 30px 0 6px;
+    font-size: 14px;
+    color: #333;
+}
+footer dl dt{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+footer dl dd{
+    line-height: 30px;
+}
+footer dl a{
+    color: #333;
+}
+footer dl dd a:hover{
+    color: #0F51B2;
+}
+footer .contact dd img{
+    width: 20px;
+    margin-right:10px;
+    display: inline-block;
+}
+footer .contact dd p{
+    background:url("../images/index_icon12.png") no-repeat left 7px;
+    padding-left: 30px;
+}
+footer .link dd span{
+    padding-right: 14px;
+}
+footer .news{
+    padding-right:10px;
+}
+footer .news dd{
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+
+}
+footer .footerInfo{
+    font-family: "微软雅黑", "Arial", serif;
+    margin-top: 20px;
+    padding-bottom:10px;
+    font-size:12px;
+    line-height: 20px;
+    background-color: #666;
+    color: #fff;
+}
+/*悬浮侧栏效果*/
+#aside{
+    position: fixed;
+    bottom: 20px;
+    right: 2px;
+    z-index: 200;
+}
+#aside ul li {
+    margin-bottom: 5px;
+    height: 64px;
+}
+#aside ul li a{
+    float: right;
+    width: 64px;
+    max-width: 200px;
+    height: 64px;
+    position: relative;
+}
+#aside ul li span{
+    position: absolute;
+    display: none;
+    margin-left:5px;
+}
+
+#aside ul li:nth-child(1) a{background: url("../images/icon_wechat.png") no-repeat;}
+#aside ul li:nth-child(1):hover a{
+    background:url("../images/icon_wechat01.png") no-repeat;
+    width: 74px;
+}
+#aside ul li:nth-child(1):hover span{
+    right: 85px;
+    top: -35px;
+    display: block;
+}
+
+#aside ul li:nth-child(2) a{background: url("../images/icon_qq.png") no-repeat}
+
+#aside ul li:nth-child(2):hover a{
+    background:#48ceff url("../images/icon_qq01.png") no-repeat;
+    padding-left: 180px;
+    border: 1px solid #09A3DC;
+
+}
+#aside ul li:nth-child(2):hover span{
+    display: block;
+    right: 10px;
+    color: #fff;
+    line-height: 64px;
+}
+#aside ul li:nth-child(3) a{background: url("../images/icon_tel.png"   ) no-repeat}
+#aside ul li:nth-child(3):hover a{
+    background:#FE5D02 url("../images/icon_tel01.png"   ) no-repeat;
+    padding-left: 180px;
+    border: 1px solid #EC9890;
+}
+#aside ul li:nth-child(3):hover span{
+    display: block;
+    right: 2px;
+    color: #fff;
+    line-height: 64px;
+}
+
+#aside ul li:nth-child(4) a{background: url("../images/icon_top.png"   ) no-repeat}
+#aside ul li:nth-child(4):hover a{
+    background: url("../images/icon_top01.png"   ) no-repeat;
+    width: 180px;
+}
+/*悬浮侧栏效果结束*/
