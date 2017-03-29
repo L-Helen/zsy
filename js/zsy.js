@@ -16,14 +16,24 @@
             } else if (dv.css('position') != 'static') dv.css({ 'position': 'static' });
         });
 
-        //导航点击状态切换
-        $("#myNav li a").click($(this).addClass("active").siblings().removeClass("active"))
+        //导航跳转高亮
+         $(".nav a").each(function(){          
+              $this= $(this);                  
+              if($this[0].href==String(window.location)){  
+           //   console.log(String(window.location)) 
+           //   console.log($this[0].href==String(window.location))           
+                  $this.parent().addClass("cur");         
+              }   
+         }); 
+          
+          
 
-        //右悬浮侧栏效果
-        if(screen.width <= 1024) {
-            document.getElementById("rightsead").style.display = "none";
-        }
+        
+    
+		        //右悬浮侧栏效果
+        // if(screen.width <= 1024) {
+        //     document.getElementById("rightsead").style.display = "none";
+        // }
 
     });
-
 
