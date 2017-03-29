@@ -37,11 +37,14 @@ header.navbar .nav{
 
 }
 @media screen and (max-width:495px) {
+    #aside{
+        display: none;
+    }
     header.navbar .navbar-header{
-        width: 50%;
+        width: 60%;
     }
     header.navbar .nav{
-        width: 50%;
+        width: 40%;
     }
 
 }
@@ -89,10 +92,17 @@ nav.navbar-default nav.navbar-toggle:hover{
 #myNav > li > a:hover, #myNav > li > a:focus{
     background: #003085;
 }
-#myNav > li{
+/*#myNav > li{
     float: left;
     width: 16.667%;
     text-align: center;
+}*/
+.navbar-nav > li{
+    float: none;
+}
+
+#myNav{
+        margin: 0 auto;
 }
 .cur{
 	   background: #003085;
@@ -110,10 +120,6 @@ nav.navbar-default nav.navbar-toggle:hover{
 }
 
 /*页头与导航结束*/
-
-
-
-
 
 /*banner开始*/
 .bannerBox ul>li img{
